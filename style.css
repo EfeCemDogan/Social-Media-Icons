@@ -1,0 +1,102 @@
+/* EFE CEM DOGAN */
+/* Body */
+  body {
+    /* background: #CE5A67; */
+    /* background: #C7DCA7; */
+    background: #9BCDD2;
+    /* background: #FFA559; */
+    /* background: #DEBACE; */
+    /* background: #CFD2CF; */
+    /* background: #DBDFFD; */
+    /* background: #dae5d0; */
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+  }
+/* Content */
+  .content {
+    width: 400px;
+    margin: 90px auto;
+  }
+  .content p {
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  .content p {
+    font-weight: 300;
+  }
+
+/* social media icons */
+/* Position */
+  .social-icons {
+    position: fixed;
+    right: 0;
+  }
+
+  .social-icons ul {
+    padding: 0;
+    transform: translate(300px, 0);
+  }
+
+  .social-icons ul li {
+    display: block;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.36);
+    width: 320px;
+    text-align: left;
+    align-items: center;
+    padding: 18px;
+    border-radius: 30px 0 0 30px;
+    transition: all 1s;
+  }
+
+/* Text */
+  .social-icons ul li a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+/* Icon */
+  .social-icons ul .twitter-list:hover {
+    transform: translate(-110px, 0);
+    background: rgba(0, 0, 0, 0.36);
+  }
+
+  .social-icons ul .instagram-list:hover {
+    transform: translate(-110px, 0);
+    background: rgba(201, 0, 151, 0.5);
+  }
+
+  .social-icons ul .facebook-list:hover {
+    transform: translate(-110px, 0);
+    background: rgba(0, 99, 255, 0.5);
+  }
+
+  .social-icons ul li:hover i {
+    color: #fff;
+    transform: rotate(360deg);
+    transition: all 1s;
+  }
+
+  .social-icons ul li i {
+    margin-right: 20px;
+    padding: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 30px;
+    font-size: 30px;
+    transform: rotate(0deg);
+  }
+
+  .social-icons ul .facebook-list i {
+    color: #55ACEE;
+  }
+
+  .social-icons ul .instagram-list i {
+    color: #b430ac;
+  }
+
+  .social-icons ul .twitter-list i {
+    color: #fff;
+  }
